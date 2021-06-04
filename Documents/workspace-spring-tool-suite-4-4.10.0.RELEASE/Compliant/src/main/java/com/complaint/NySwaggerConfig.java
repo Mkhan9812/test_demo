@@ -1,4 +1,4 @@
-package com.cg.complaint;
+package com.complaint;
 
 
 import org.springframework.context.annotation.Bean;
@@ -23,7 +23,7 @@ public Docket docket()  {
 	return new Docket(DocumentationType.SWAGGER_2)
 			.apiInfo(apiInfo()).select()
 			.apis(RequestHandlerSelectors
-			.basePackage("com.cg.complaint"))
+			.basePackage("com.complaint"))
 			.build();
 }
 

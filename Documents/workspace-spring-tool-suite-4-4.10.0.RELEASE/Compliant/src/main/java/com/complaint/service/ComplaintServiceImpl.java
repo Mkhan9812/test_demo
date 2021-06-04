@@ -1,4 +1,4 @@
-package com.cg.complaint.service;
+package com.complaint.service;
 
 
 import java.util.List;
@@ -8,8 +8,8 @@ import javax.persistence.PersistenceContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cg.complaint.dao.ComplaintDao;
-import com.cg.complaint.model.Complaint;
+import com.complaint.dao.ComplaintDao;
+import com.complaint.model.Complaint;
 
 @Service("cserv")
 public class ComplaintServiceImpl implements ComplaintService{

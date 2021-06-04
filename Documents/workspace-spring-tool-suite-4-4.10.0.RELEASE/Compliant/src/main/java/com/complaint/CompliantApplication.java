@@ -1,4 +1,4 @@
-package com.cg.complaint;
+package com.complaint;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

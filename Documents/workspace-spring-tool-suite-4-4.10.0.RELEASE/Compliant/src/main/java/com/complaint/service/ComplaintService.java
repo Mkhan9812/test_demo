@@ -1,9 +1,9 @@
-package com.cg.complaint.service;
+package com.complaint.service;
 
 
 import java.util.List;
 
-import com.cg.complaint.model.Complaint;
+import com.complaint.model.Complaint;
 
 
 public interface ComplaintService {

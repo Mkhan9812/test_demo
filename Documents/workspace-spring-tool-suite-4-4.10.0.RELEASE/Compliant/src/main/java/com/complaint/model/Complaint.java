@@ -1,4 +1,4 @@
-package com.cg.complaint.model;
+package com.complaint.model;
 
 
 

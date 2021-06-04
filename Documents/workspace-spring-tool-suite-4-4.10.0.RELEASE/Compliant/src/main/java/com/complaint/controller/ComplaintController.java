@@ -1,4 +1,4 @@
-package com.cg.complaint.controller;
+package com.complaint.controller;
 
 
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cg.complaint.model.Complaint;
-import com.cg.complaint.service.ComplaintServiceImpl;
+import com.complaint.model.Complaint;
+import com.complaint.service.ComplaintServiceImpl;
 
 @RestController
 @RequestMapping("/consumers/Complaint")
